@@ -1,2 +1,2 @@
 # my-project
-you are welcome to my web dev pproject
+you are welcome to my web dev project
