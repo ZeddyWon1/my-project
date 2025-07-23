@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
     margin: 0;
@@ -1002,4 +1003,1022 @@ footer {
 }
 .btndv a {
     text-decoration: none;
+=======
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: rgb(22 27 34 );
+}
+h4 {
+    color: white;
+    padding: 15px;
+}
+nav {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    width: 100%;
+    padding-right: 30px;
+    position: fixed;
+    justify-items: space-evenly;
+    z-index: 2;
+}
+.cont {
+    position: relative;
+    background: url(/image/zeddy.jpg);
+    height: 500px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-size: cover;
+    background-position: 50% 75%;
+}
+.cont2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imd {
+    width: 210px;
+    height: 300px;
+    float: right;
+    right: 5%;
+    bottom: 30%;
+    position: relative;
+    clip-path: circle(40%);
+    animation-name: rot;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-position: 80% 80%;
+    background-size: cover;
+    background-image: url(/image/UMSW6274.JPG);
+}
+
+@keyframes rot {
+    100% {
+        transform: rotateY(300deg);
+    }
+}
+.dtcont {
+    position: relative;
+    color: white;
+    padding-top: 25px;
+    height: 200px;
+    width: 43%;
+    padding-left: 7px;
+    top: 25%;
+    left: 1%;
+    box-shadow: 4px 2px 22px white;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.823);
+}
+.dtcont h2{
+    padding-left: 7px;
+    font-size: 35px;
+    width: fit-content;
+    animation: bounce 4s ease-in-out infinite;
+}
+#hello {
+    position: relative;
+}
+.sexp {
+    left: 30%;
+    position: absolute;
+    bottom: 10%;
+    font-size: small;
+    justify-items: center;
+    animation: bounce 1s ease-in-out infinite;
+}
+.sexp p {
+    color: black;
+    font-weight: 550;
+}
+.fa-arrow-down {
+    color: black;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-25px);
+    }
+}
+.lstdiv {
+    padding: 15px;
+    left: 60%;
+    position: relative;
+}
+.lstdiv a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 10px;
+    box-shadow: 0px 0px 3px white;
+}
+.lstdiv2 {
+    top: 10%;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    left: 75%;
+    display: none;
+    position: relative;
+}
+.alist {
+    top: 9%;
+    position: absolute;
+    right: 145%;
+    width: 120px;
+    display: block;
+    background-color: black;
+}
+.alist a {
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    color: black;
+    background-color: white;
+    font-size: 10px;
+    text-decoration: none;
+    transition: 1s ease;
+    box-shadow: 0px 0px 3px white;
+}
+.alist a:hover {
+    transform: scale(1.1);
+}
+.fa-bars {
+    top: 30%;
+    left: 63%;
+    z-index: 1;
+    position: relative;
+}
+.fa-times {
+    color: white;
+    bottom: 100%;
+    margin-left: 5%;
+    position: absolute;
+}
+.fa-bars:hover .lstdiv2 {
+    display: block;
+}
+#dtp {
+    margin-top: 5px;
+    padding: 7px;
+}
+
+#dtp2 {
+    padding: 5px;
+}
+
+.sportdiv {
+    position: absolute;
+    top: 70%;
+    left: 2%;
+}
+.sportbtn {
+    background-color: black;
+    height: 50px;
+    color: white;
+    font-size: 13px;
+    border-radius: 50px;
+    box-shadow: 3px 4px 1px white;
+}
+.sportdiv a {
+    text-decoration: none;
+    color: white;
+}
+.sportbtn2 {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 13px;
+    border-radius: 50px;
+    box-shadow: 3px 4px 1px white;
+}
+.habm {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 20px;
+    padding-left: 7px;
+}
+.aboutme {
+    display: none;
+    flex-wrap: wrap;
+    background-color: rgb(33 38 45);
+
+}
+.amedivp {
+    width: 40%;
+    margin-left: 1%;
+}
+.pabt {
+    padding: 10px;
+    margin-left: 1%;
+    margin-bottom: 5px;
+}
+.stdiv {
+    width: 100%;
+    height: 100%;
+    box-shadow: 7px 4px 4px rgba(237, 236, 236, 0.703);
+    background-image: url(/image/UMSW6274.JPG);
+    background-size: cover;
+    margin-right: 20px;
+    
+}
+.cont2 .frntend_i{
+    width: 50%;
+    height: 480px;
+    padding: 0px;
+    margin-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.1s ease;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: rgb(250, 251, 252);
+    background-image: url(/image/UMSW6274.JPG);
+}
+h3 {
+    color: rgba(59, 131, 246, 0.978);;
+}
+.pacnt {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.fa-whatsapp {
+    color: green;
+    margin-right: 0px;
+}
+.fa-envelope {
+    margin-right: 5px;
+}
+.fa-home {
+    margin-right: 5px;
+}
+.cnt {
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cnt2 {
+    margin-top: 94%;
+}
+.mcnt {
+    top: 0;
+    width: 40%;
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.748);
+}
+.fa-facebook {
+    margin-right: 5px;
+    color: blue;
+}
+.fa-instagram {
+    margin-right: 5px;
+    color: rgb(117, 36, 62);
+}
+.fa-twitter {
+    margin-right: 5px;
+    color: rgb(0, 191, 255);
+}
+.LI-profile-badge {
+    margin-top: 10%;
+}
+.LI-profile-badge a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+.fa-linkedin {
+    margin-right: 10px;
+}
+span {
+    font-size: 10px;
+}
+
+.teh2 {
+    font-size: 18px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    padding-left: 7px;
+    justify-content: center;
+    justify-self: center;
+}
+
+.frntend {
+    width: 250px;
+    height: 240px;
+    padding: 10px;
+    margin-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    transition: 0.1s ease;
+    background-color: rgb(33 38 45);
+}
+.frntend:hover {
+    transform: scale(1.03);
+}
+.pf1 {
+    width: 100%;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+.wave {
+    font-size: 26px;
+}
+.techexp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+.rtdiv {
+    margin-left: 18px;
+    position: relative;
+}
+.rd1 {
+    width: 95%;
+    height: 6px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgba(92, 107, 129, 0.405);;
+}
+.rd2 {
+    top: 0;
+    width: 20%;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgb(9, 98, 232);;
+}
+.rtdiv span {
+    left: 85%;
+    font-size: 10px;
+    bottom: 40%;
+    position: absolute;
+}
+.rd3 {
+    top: 0;
+    width: 80%;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgb(9, 98, 232);;
+}
+.rd4 {
+    top: 0;
+    width: 100%;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgb(9, 98, 232);;
+}
+.rd5 {
+    top: 0;
+    width: 90%;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgb(9, 98, 232);;
+}
+.bad1 {
+    width: 95%;
+    height: 6px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgba(92, 107, 129, 0.405);;
+}
+.bd2 {
+    top: 0;
+    width: 20%;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgb(9, 232, 65);;
+}
+.bd3 {
+    top: 0;
+    width: 15%;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgb(9, 232, 65);;
+}
+.bd4 {
+    top: 0;
+    width: 18%;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgb(9, 232, 65);;
+}
+.bd5 {
+    top: 0;
+    width: 40%;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgb(9, 232, 65);;
+}
+.pd1 {
+    width: 95%;
+    height: 6px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgba(92, 107, 129, 0.405);
+}
+.pd2 {
+    top: 0;
+    width: 100%;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgba(206, 27, 230, 0.925);;
+}
+.pd3 {
+    top: 0;
+    width: 20%;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgba(206, 27, 230, 0.925);;
+}
+.pd4 {
+    top: 0;
+    width: 20%;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgba(206, 27, 230, 0.925);;
+}
+.pd5 {
+    top: 0;
+    width: 20%;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgba(206, 27, 230, 0.925);;
+}
+
+.fpro {
+    width: 78%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    margin: 25px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: rgb(33 38 45);
+}
+.fdiv {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    z-index: 1;
+    padding-top: 2%;
+    box-shadow: 100px 0px 100px rgb(34, 32, 32);
+}
+.fdiv2 {
+    width: 50%;
+    height: 300px;
+    justify-self: end;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+    background-image: url(/image/code_room.jpg);
+    box-shadow: 0px 0px 50px rgb(92, 11, 92);
+}
+.fd1 {
+    margin-left: 20px;
+}
+.fd2 {
+    margin-left: 20px;
+}
+.fd1 p {
+    margin: 15px;
+}
+.fd2 .pp {
+    margin: 15px;
+}
+.tdv {
+   margin: 13px; 
+}
+.ph {
+    font-size: 9px;
+    color: rgb(193, 192, 192);
+}
+.pe {
+    font-weight: 600;
+}
+.pp {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+.spd {
+    display: flex;
+    width: 100%;
+}
+.sp1 {
+    display: block;
+    width: 35%;
+    margin: 5px;
+    text-align: center;
+}
+.sp2 {
+    display: block;
+    width: 35%;
+    margin: 5px;
+    text-align: center;
+}
+.sp3 {
+    display: block;
+    width: 35%;
+    margin: 5px;
+    text-align: center;
+}
+.spn {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(6, 180, 237);
+}
+.spt {
+    font-size: 8px;
+    color: lightgray;
+}
+.sp1, .sp2, .sp3 {
+    justify-items: center;
+}
+.spp1 {
+    width: 40px;
+}
+.tdv {
+    display: block;
+}
+@media  (max-width: 450px) {
+    .lstdiv {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        left: 40%;
+    }
+    .dtcont {
+        top: 15%;
+        width: 90%;
+        height: 35%;
+    }
+    .dtcont h2 {
+        font-size: 1.5em;
+    }
+    .amedivp p {
+        font-size: small;
+    }
+    .imd {
+        top: 10%;
+        width: 100px;
+        height: 100px;
+    }
+    .sportdiv {
+        top: 55%;
+        left: 4%;
+    }
+    .sportbtn {
+        font-size: 8px;
+        height: 30px;
+    }
+    .sportbtn2 {
+        font-size: 8px;
+        width: 73px;
+        height: 30px;
+    }
+    .sexp {
+        font-size: 10px;
+        left: 15%;
+    }
+    .teh2 {
+        font-size: medium;
+        justify-self: center;
+    }
+    .habm {
+        padding: 0px;
+        margin-bottom: 0%;
+        font-size: medium;
+    }
+    .amedivp {
+        width: 90%;
+        height: auto;
+        font-size: small;
+        padding: 0px;
+    }
+    .cont2 .frntend_i {
+        margin-left: 28px;
+        width: 100%;
+        height: 250px;
+        padding: 0px;
+    }
+    .cont2 .frntend_s {
+        width: 0%;
+        height: auto;
+        margin-left: 23px;
+        margin-bottom: 30px;
+        font-size: 10px;
+    }
+    .mcnt {
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+    .pacnt span {
+        font-size: 10px;
+    }
+    .LI-profile-badge {
+        margin-top: 2px;
+    }
+    .cnt2 {
+     margin-top: 10%;
+    }
+    .frntend {
+        width: 90%;
+        padding-left: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5%;
+    }
+    .pf1 {
+        font-size: 13px;
+        justify-self: center;
+    }
+    .pf1 i {
+        margin-right: 8px;
+        margin-left: 2px;
+    }
+    .fro {
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+    }
+    .fdiv {
+        padding: 0;
+        width: 100%;
+        margin: 5px;
+        height: 58%;
+    }
+    .fd1 {
+         margin-left: 0px;
+    }
+    .fd2 {
+        margin-left: 0px;
+    }
+    .fd1 p {
+        margin: 4px;
+        margin-left: 10px;
+    }
+    .fd1 .pp {
+        font-size: 9px;
+    }
+    .tdv {
+        margin: 0px; 
+    }
+    .ph {
+        font-size: 7px;
+        color: rgb(193, 192, 192);
+    }
+    .pe {
+        font-weight: 600;
+        font-size: 10px;
+    }
+    .spd {
+        display: flex;
+         width: 100%;
+    }
+    .sp1 {
+        display: block;
+        width: 35%;
+        margin: 5px;
+        text-align: center;
+    }
+    .sp2 {
+        display: block;
+        width: 35%;
+        margin: 5px;
+        text-align: center;
+    }
+    .sp3 {
+        display: block;
+        width: 35%;
+        margin: 5px;
+        text-align: center;
+    }
+    .spn {
+        font-weight: 600;
+        font-size: 16px;
+        color: rgb(6, 180, 237);
+    }
+    .spt {
+        font-size: 8px;
+        color: lightgray;
+    }
+    .sp1, .sp2, .sp3 {
+        justify-items: center;
+    }
+    .spp1 {
+        width: 40px;
+    }
+    .tdv {
+        display: block;
+        margin-left: 10px;
+    }
+    .tdv .ph1 {
+        font-size: 8px;
+    }
+    .fd2 .pp {
+        font-weight: 100;
+        font-size: 9px;
+        margin: 3px;
+        margin-left: 10px;
+    }
+    .ph1 {
+        font-size: 1px;
+    }
+    .spp1 .spn {
+        font-size: 13px;
+    }
+    .fdiv2 {
+        width: 100%;
+        height: 40%;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+}
+
+@media (max-width: 550px) {
+    .lstdiv {
+        display: none;
+    }
+    .lstdiv2 {
+        display: none;
+    }
+   .imd {
+        width: 100px;
+        height: 100px;
+    }
+    .aboutme {
+        font-size: 10px;
+    }
+    .teh2 {
+        font-size: medium;
+        justify-self: center;
+    }
+    .sportbtn {
+        font-size: 8px;
+        height: 30px;
+    }
+    .sportbtn2 {
+        font-size: 8px;
+        width: 73px;
+        height: 30px;
+    }
+    .dtcont h2 {
+        width: 98%;
+    }
+    .pf1 i {
+        margin-right: 8px;
+        margin-left: 2px;
+    }
+    .cont2 .frntend_i {
+        margin-left: 30px;
+        height: 250px;
+        padding: 0px;
+    }
+    .rtdiv {
+        font-size: 12px;
+    }
+    .mcnt {
+        height: 100%;
+    }
+    .cnt2 {
+     margin-top: 120px;
+    }
+    .LI-profile-badge {
+        margin-top: 5px;
+    }
+    .fro {
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+    }
+    .fdiv {
+        padding: 0;
+        width: 100%;
+        margin: 5px;
+        height: 58%;
+    }
+    .fd1 {
+         margin-left: 0px;
+    }
+    .fd2 {
+        margin-left: 0px;
+    }
+    .fd1 p {
+        margin: 4px;
+        margin-left: 10px;
+    }
+    .fd1 .pp {
+        font-size: 10px;
+    }
+    .tdv {
+        margin: 0px; 
+    }
+    .ph {
+        font-size: 8px;
+        color: rgb(193, 192, 192);
+    }
+    .pe {
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .spd {
+        display: flex;
+         width: 100%;
+    }
+    .sp1 {
+        display: block;
+        width: 35%;
+        margin: 5px;
+        text-align: center;
+    }
+    .sp2 {
+        display: block;
+        width: 35%;
+        margin: 5px;
+        text-align: center;
+    }
+    .sp3 {
+        display: block;
+        width: 35%;
+        margin: 5px;
+        text-align: center;
+    }
+    .spn {
+        font-weight: 600;
+        font-size: 16px;
+        color: rgb(6, 180, 237);
+    }
+    .spt {
+        font-size: 8px;
+        color: lightgray;
+    }
+    .sp1, .sp2, .sp3 {
+        justify-items: center;
+    }
+    .spp1 {
+        width: 40px;
+    }
+    .tdv {
+        display: block;
+        margin-left: 10px;
+    }
+    .tdv .ph1 {
+        font-size: 9px;
+    }
+    .fd2 .pp {
+        font-weight: 100;
+        font-size: 9px;
+        margin: 3px;
+        margin-left: 10px;
+    }
+    .spp1 .spn {
+        font-size: 13px;
+    }
+    .fdiv2 {
+        width: 100%;
+        height: 40%;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+        background-size: cover;
+        background-position: 0px 500px;
+    }
+}
+
+@media (max-width: 770px) {
+    .lstdiv {
+        display: none;
+    }
+    .imd {
+        width: 100px;
+        height: 100px;
+    }
+    .amedivp {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+    .teh2 {
+        justify-self: center;
+    }
+    .frntend {
+        width: 85%;
+        height: 40%;
+        margin-bottom: 5%;
+    }
+    .rtdiv span {
+        left: 88%;
+    }
+    .cont2 .frntend_i {
+        margin-left: 10px;
+        width: 100%;
+        height: 320px;
+        margin: 10px;
+    }
+    .cnt2 {
+        margin-top: 50px
+    }
+}
+@media (max-width: 850px) {
+    .lstdiv {
+        left: 50%;
+    }
+    .lstdiv2 {
+        display: none;
+    }
+    .imd {
+        width: 100px;
+        height: 100px;
+    }
+    .pf1 i {
+        margin-right: 8px;
+        margin-left: 2px;
+    }
+    .teh2 {
+        font-size: medium;
+        justify-self: center;
+    }
+}
+
+footer {
+    margin-top: 5%;
+    background-color: rgb(3, 3, 3);
+}
+.ffdv {
+    text-align: center;
+    justify-self: center;
+    padding: 20px;
+}
+.ftd {
+    font-size: 11px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.ph1 {
+    font-size: 10px;
+    color: rgb(159, 159, 159);
+}
+.fa-map-marker {
+    margin-right: 10px;
+}
+.dlot {
+    display: flex;
+    padding: 15px;
+    font-size: 11px;
+    color: rgba(217, 217, 217, 0.793);
+    justify-self: center;
+}
+.fbtn {
+    height: 34px;
+    font-size: 10px;
+    border: none;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+.btndv a {
+    text-decoration: none;
+>>>>>>> 597cb363224981a1c825467040bc37c824553e67
 }
