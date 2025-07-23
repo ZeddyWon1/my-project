@@ -617,6 +617,7 @@ span {
     }
     .teh2 {
         font-size: medium;
+        justify-self: center;
     }
     .habm {
         padding: 0px;
@@ -784,6 +785,10 @@ span {
     .aboutme {
         font-size: 10px;
     }
+    .teh2 {
+        font-size: medium;
+        justify-self: center;
+    }
     .sportbtn {
         font-size: 8px;
         height: 30px;
@@ -928,6 +933,9 @@ span {
         height: auto;
         padding: 0px;
     }
+    .teh2 {
+        justify-self: center;
+    }
     .frntend {
         width: 85%;
         height: 40%;
@@ -960,6 +968,10 @@ span {
     .pf1 i {
         margin-right: 8px;
         margin-left: 2px;
+    }
+    .teh2 {
+        font-size: medium;
+        justify-self: center;
     }
 }
 
