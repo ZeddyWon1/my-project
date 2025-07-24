@@ -796,8 +796,10 @@ span {
     .lstdiv {
         display: none;
     }
-    .lstdiv2 {
-        display: none;
+    .alist a{
+        margin-left: 10px;
+        width: 90%;
+        padding: 20px;
     }
    .imd {
         width: 100px;
