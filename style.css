@@ -22,7 +22,7 @@ nav {
 }
 .cont {
     position: relative;
-    background: url(zeddy1/image/zeddy.jpg);
+    background: url(/image/zeddy.jpg);
     height: 500px;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
