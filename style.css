@@ -17,6 +17,7 @@ nav {
     width: 100%;
     padding-right: 30px;
     position: fixed;
+    justify-items: space-evenly;
     z-index: 1;
 }
 .cont {
@@ -118,7 +119,7 @@ nav {
 }
 .dropdown {
     top: 30%;
-    left: 13%;
+    left: 123%;
     width: 51%;
     display: none;
     position: relative;
