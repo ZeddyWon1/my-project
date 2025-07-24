@@ -17,8 +17,8 @@ nav {
     width: 100%;
     padding-right: 30px;
     position: fixed;
-    justify-content: space-between;
-    z-index: 1;
+    justify-items: space-evenly;
+    z-index: 2;
 }
 .cont {
     position: relative;
@@ -155,17 +155,18 @@ nav {
     transform: scale(1.1);
 }
 .fa-bars {
-   padding-right: 10%;
-   float: right;
-   display: block;
-}
-.fa-times {
-    top: 100%;
-    color: white;
-    margin-left: 5%;
+    top: 30%;
+    left: 63%;
+    z-index: 1;
     position: relative;
 }
-.fa-bars:hover .dropdown-content {
+.fa-times {
+    color: white;
+    bottom: 100%;
+    margin-left: 5%;
+    position: absolute;
+}
+.fa-bars:hover .lstdiv2 {
     display: block;
 }
 #dtp {
@@ -179,7 +180,7 @@ nav {
 
 .sportdiv {
     position: absolute;
-    top: 55%;
+    top: 70%;
     left: 2%;
 }
 .sportbtn {
@@ -796,10 +797,8 @@ span {
     .lstdiv {
         display: none;
     }
-    .alist a{
-        margin-left: 10px;
-        width: 90%;
-        padding: 20px;
+    .lstdiv2 {
+        display: none;
     }
    .imd {
         width: 100px;
@@ -953,7 +952,7 @@ span {
         display: none;
     }
     .dropdown-content {
-        left: 00%;
+        left: 10%;
         height: 700%;
         width: 100%;
     }
@@ -1021,7 +1020,7 @@ span {
     }
     .dropdown {
         display: block;
-        left: 5%;
+        left: 25%;
     }
     .imd {
         width: 100px;
