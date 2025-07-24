@@ -10,25 +10,28 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav1">
             <h4>Zeddy's portfolio</h4>
             <div class="lstdiv">
                 <a href="#">Home</a>
                 <a href="#aboutme" onclick="aboutMe()">About</a>
                 <a href="#contact" onclick="aboutMe()">Contact</a>
             </div>
-            <i class="fa fa-bars" onclick="bar()" id="barN">
-                <div class="lstdiv2" id="listd">
+        </nav>
+        <nav class="nav2">
+            <div class="dropdown" onclick="bar()" id="barN">
+                <i class="fa fa-bars"></i>
+                <div class="dropdown-content">
                     <div class="alist">
+                        <i class="fa fa-times" onclick="timesF()"></i>
                         <a href="#">Home</a>
                         <a href="#aboutme" onclick="aboutMe()">About</a>
                         <a href="#contact" onclick="aboutMe()">Contact</a>
                         <a href="">Resumes</a>
                         <a href="#aboutme" onclick="aboutMe()">See portfolio</a>
-                        <i class="fa fa-times" onclick="timesF()"></i>
-                   </div>
-                </div>
-            </i>
+                    </div>
+                </div>    
+            </div>
         </nav>
     </header>
     <div class="cont">
@@ -118,7 +121,9 @@
             </div>
         </div>
     </div>
-    <h2 class="teh2">Technical Expertise</h2>
+    <div class="techexp">
+        <h2 class="teh2">Technical Expertise</h2>
+    </div>
     <div class="techexp">
         <div class="frntend" id="frntend">
             <p class="pf1">
@@ -220,7 +225,9 @@
             </div>
         </div>
     </div>
-    <h2 class="teh2">Featured Projects</h2>
+    <div class="techexp">
+        <h2 class="teh2">Featured Projects</h2>
+    </div>
     <div class="fpro">
         <div class="fdiv">
             <div class="fd1">
@@ -264,7 +271,7 @@
     </div>
     <footer>
         <div class="ffdv">
-            <h2 class="teh2">Let's Build Something Amazing</h2>
+            <h2 class="teh3">Let's Build Something Amazing</h2>
             <p class="ph1">Looking for a developer who can create high-performance, interactive web experiences?</p>
             <div class="dlot">
                 <i class="fa fa-map-marker"></i>

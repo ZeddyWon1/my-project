@@ -10,7 +10,7 @@ h4 {
     color: white;
     padding: 15px;
 }
-nav {
+.nav1 {
     background-color: black;
     height: 50px;
     display: flex;
@@ -18,7 +18,19 @@ nav {
     padding-right: 30px;
     position: fixed;
     justify-items: space-evenly;
-    z-index: 2;
+    z-index: 1;
+}
+.nav2 {
+    height: 50px;
+    display: flex;
+    width: 50%;
+    padding-right: 30px;
+    position: fixed;
+    z-index: 1;
+    left: 48%;
+    position: fixed;
+    display: none;
+    justify-items: space-evenly;
 }
 .cont {
     position: relative;
@@ -62,10 +74,10 @@ nav {
     color: white;
     padding-top: 25px;
     height: 200px;
-    width: 43%;
+    width: 45%;
     padding-left: 7px;
     top: 25%;
-    left: 1%;
+    left: 2%;
     box-shadow: 4px 2px 22px white;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
@@ -118,22 +130,21 @@ nav {
     box-shadow: 0px 0px 3px white;
 }
 .dropdown {
-    top: 30%;
-    left: 13%;
-    width: 51%;
+    width: 58%;
+    height: 100%;
     display: none;
     position: relative;
     display: inline-block;
 }
 .dropdown-content {
-    top: 70%;
+    top: 0%;
     right: 0%;
     background-color: rgb(210, 209, 209);
     position: absolute;
-    min-width: 185px;
+    min-width: 150px;
     display: none;
-    box-shadow: 0px 4px 12px black;
     z-index: 1;
+    box-shadow: 0px 4px 12px black;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -156,7 +167,6 @@ nav {
 }
 .fa-bars {
     top: 30%;
-    left: 63%;
     z-index: 1;
     position: relative;
 }
@@ -185,7 +195,7 @@ nav {
 }
 .sportbtn {
     background-color: black;
-    height: 50px;
+    height: 40px;
     padding: 15px;
     color: white;
     font-size: 10px;
@@ -199,7 +209,7 @@ nav {
 .sportbtn2 {
     background-color: black;
     width: 100px;
-    height: 50px;
+    height: 40px;
     padding: 15PX;
     color: white;
     font-size: 10px;
@@ -315,7 +325,7 @@ span {
     font-size: 10px;
 }
 
-.teh2 {
+.teh2, .teh3 {
     font-size: 18px;
     margin-top: 5%;
     margin-bottom: 2%;
@@ -595,7 +605,7 @@ span {
         width: 100%;
     }
     .dropdown-content {
-        height: 550%;
+        height: 540%;
         width: 150.90%;
     }
     .alist a{
@@ -605,7 +615,7 @@ span {
     }
     .dtcont {
         top: 15%;
-        width: 90%;
+        width: 95%;
         height: 35%;
     }
     .dtcont h2 {
@@ -615,22 +625,22 @@ span {
         font-size: small;
     }
     .imd {
-        top: 10%;
+        top: 13%;
         width: 100px;
         height: 100px;
     }
     .sportdiv {
         top: 40%;
-        left: 4%;
+        left: 20%;
     }
     .sportbtn {
         font-size: 9px;
         height: 30px;
-        width: 130px;
+        width: 110px;
     }
     .sportbtn2 {
         font-size: 8px;
-        width: 120px;
+        width: 110px;
         height: 30px;
     }
     .sexp {
@@ -638,6 +648,12 @@ span {
         top: 70%;
     }
     .teh2 {
+        width: 78%;
+        margin-left: 28%;
+        font-size: medium;
+        justify-self: center;
+    }
+    .teh3 {
         font-size: medium;
         justify-self: center;
     }
@@ -797,12 +813,14 @@ span {
     .lstdiv {
         display: none;
     }
-    .lstdiv2 {
-        display: none;
+    .nav2 {
+        display: block;
+        top: 40%;
     }
    .imd {
         width: 100px;
         height: 100px;
+        left: 75%;
     }
     .aboutme {
         font-size: 10px;
@@ -812,11 +830,11 @@ span {
         justify-self: center;
     }
     .sportbtn {
-        font-size: 9px;
+        font-size: 10px;
         height: 44px;
     }
     .sportbtn2 {
-        font-size: 9px;
+        font-size: 10px;
         width: 120px;
         height: 43px;
     }
@@ -947,13 +965,15 @@ span {
         display: block;
     }
     .dropdown {
+        top: 5%;
         left: 4%;
-        width: 50%;
+        width: 100%;
+        height: 100%;
         display: none;
     }
     .dropdown-content {
-        left: 10%;
-        height: 700%;
+        left: 1%;
+        height: 610%;
         width: 100%;
     }
     .alist a{
@@ -1012,6 +1032,9 @@ span {
         border-top-right-radius: 0px;
         background-position: 0px 200px;
     }
+    .fa-bars {
+        position: relative%;
+    }
 }
 @media (max-width: 850px) {
     .lstdiv {
@@ -1019,6 +1042,7 @@ span {
         display: none;
     }
     .dropdown {
+        top: 0%;
         display: block;
         left: 25%;
     }
@@ -1062,6 +1086,7 @@ footer {
 }
 .dlot {
     display: flex;
+    flex-wrap: nowrap;
     padding: 15px;
     font-size: 11px;
     color: rgba(217, 217, 217, 0.793);
