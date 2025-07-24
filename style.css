@@ -512,7 +512,7 @@ span {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background-size: cover;
-    background-image: url(/image/code_room.jpg);
+    background-image: url(code_room.jpg);
     box-shadow: 0px 0px 50px rgb(92, 11, 92);
 }
 .fd1 {
