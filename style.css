@@ -17,8 +17,7 @@ nav {
     width: 100%;
     padding-right: 30px;
     position: fixed;
-    justify-items: space-evenly;
-    z-index: 2;
+    z-index: 1;
 }
 .cont {
     position: relative;
@@ -36,12 +35,13 @@ nav {
     flex-wrap: wrap;
 }
 .imd {
-    width: 210px;
-    height: 300px;
+    top: 15%;
+    width: 170px;
+    height: 170px;
     float: right;
     right: 5%;
     bottom: 30%;
-    position: relative;
+    position: absolute;
     clip-path: circle(40%);
     animation-name: rot;
     animation-duration: 5s;
@@ -74,7 +74,7 @@ nav {
     padding-left: 7px;
     font-size: 35px;
     width: fit-content;
-    animation: bounce 4s ease-in-out infinite;
+    animation: bounce 2s ease-in-out infinite;
 }
 #hello {
     position: relative;
@@ -84,6 +84,7 @@ nav {
     position: absolute;
     bottom: 10%;
     font-size: small;
+    text-align: center;
     justify-items: center;
     animation: bounce 1s ease-in-out infinite;
 }
@@ -99,12 +100,12 @@ nav {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-25px);
+        transform: translateY(-10px);
     }
 }
 .lstdiv {
     padding: 15px;
-    left: 60%;
+    left: 53%;
     position: relative;
 }
 .lstdiv a {
@@ -115,28 +116,33 @@ nav {
     padding-left: 10px;
     box-shadow: 0px 0px 3px white;
 }
-.lstdiv2 {
-    top: 10%;
-    padding: 5px;
-    width: 150px;
-    height: 150px;
-    left: 75%;
+.dropdown {
+    top: 30%;
+    left: 13%;
+    width: 51%;
     display: none;
     position: relative;
+    display: inline-block;
 }
-.alist {
-    top: 9%;
+.dropdown-content {
+    top: 70%;
+    right: 0%;
+    background-color: rgb(210, 209, 209);
     position: absolute;
-    right: 145%;
-    width: 120px;
+    min-width: 185px;
+    display: none;
+    box-shadow: 0px 4px 12px black;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
     display: block;
-    background-color: black;
 }
 .alist a {
     display: block;
-    padding: 5px;
-    margin: 10px;
-    width: 100px;
+    padding: 15px;
+    margin: 8px;
+    width: 93%;
+    margin-left: 6%;
     color: black;
     background-color: white;
     font-size: 10px;
@@ -148,18 +154,17 @@ nav {
     transform: scale(1.1);
 }
 .fa-bars {
-    top: 30%;
-    left: 63%;
-    z-index: 1;
-    position: relative;
+   padding-right: 10%;
+   float: right;
+   display: block;
 }
 .fa-times {
+    top: 100%;
     color: white;
-    bottom: 100%;
     margin-left: 5%;
-    position: absolute;
+    position: relative;
 }
-.fa-bars:hover .lstdiv2 {
+.fa-bars:hover .dropdown-content {
     display: block;
 }
 #dtp {
@@ -173,15 +178,16 @@ nav {
 
 .sportdiv {
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 2%;
 }
 .sportbtn {
     background-color: black;
     height: 50px;
+    padding: 15px;
     color: white;
-    font-size: 13px;
-    border-radius: 50px;
+    font-size: 10px;
+    border-radius: 10px;
     box-shadow: 3px 4px 1px white;
 }
 .sportdiv a {
@@ -192,9 +198,10 @@ nav {
     background-color: black;
     width: 100px;
     height: 50px;
+    padding: 15PX;
     color: white;
-    font-size: 13px;
-    border-radius: 50px;
+    font-size: 10px;
+    border-radius: 10px;
     box-shadow: 3px 4px 1px white;
 }
 .habm {
@@ -493,7 +500,6 @@ span {
     width: 50%;
     height: 100%;
     padding: 10px;
-    z-index: 1;
     padding-top: 2%;
     box-shadow: 100px 0px 100px rgb(34, 32, 32);
 }
@@ -582,6 +588,19 @@ span {
         display: block;
         left: 40%;
     }
+    .dropdown {
+        left: 6%;
+        width: 100%;
+    }
+    .dropdown-content {
+        height: 550%;
+        width: 150.90%;
+    }
+    .alist a{
+        margin-left: 20px;
+        width: 90%;
+        padding: 15px;
+    }
     .dtcont {
         top: 15%;
         width: 90%;
@@ -599,21 +618,22 @@ span {
         height: 100px;
     }
     .sportdiv {
-        top: 55%;
+        top: 40%;
         left: 4%;
     }
     .sportbtn {
-        font-size: 8px;
+        font-size: 9px;
         height: 30px;
+        width: 130px;
     }
     .sportbtn2 {
         font-size: 8px;
-        width: 73px;
+        width: 120px;
         height: 30px;
     }
     .sexp {
-        font-size: 10px;
-        left: 15%;
+        font-size: 13px;
+        top: 70%;
     }
     .teh2 {
         font-size: medium;
@@ -768,202 +788,7 @@ span {
         height: 40%;
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0px;
-    }
-}
-@media  (max-width: 375px) {
-    .lstdiv {
-        display: none;
-    }
-    .fa-bars {
-        display: block;
-        left: 40%;
-    }
-    .dtcont {
-        top: 15%;
-        width: 90%;
-        height: 35%;
-    }
-    .dtcont h2 {
-        font-size: 1.5em;
-    }
-    .amedivp p {
-        font-size: small;
-    }
-    .imd {
-        top: 10%;
-        width: 100px;
-        height: 100px;
-    }
-    .sportdiv {
-        top: 55%;
-        left: 4%;
-    }
-    .sportbtn {
-        font-size: 8px;
-        height: 30px;
-    }
-    .sportbtn2 {
-        font-size: 8px;
-        width: 73px;
-        height: 30px;
-    }
-    .sexp {
-        font-size: 10px;
-        left: 15%;
-    }
-    .teh2 {
-        font-size: medium;
-        justify-self: center;
-    }
-    .habm {
-        padding: 0px;
-        margin-bottom: 0%;
-        font-size: medium;
-    }
-    .amedivp {
-        width: 90%;
-        height: auto;
-        font-size: small;
-        padding: 0px;
-    }
-    .cont2 .frntend_i {
-        margin-left: 28px;
-        width: 100%;
-        height: 250px;
-        padding: 0px;
-    }
-    .cont2 .frntend_s {
-        width: 0%;
-        height: auto;
-        margin-left: 23px;
-        margin-bottom: 30px;
-        font-size: 10px;
-    }
-    .mcnt {
-        width: 100%;
-        height: auto;
-        position: absolute;
-    }
-    .pacnt span {
-        font-size: 10px;
-    }
-    .LI-profile-badge {
-        margin-top: 2px;
-    }
-    .cnt2 {
-     margin-top: 10%;
-    }
-    .frntend {
-        width: 90%;
-        padding-left: 0px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 5%;
-    }
-    .pf1 {
-        font-size: 13px;
-        justify-self: center;
-    }
-    .pf1 i {
-        margin-right: 8px;
-        margin-left: 2px;
-    }
-    .fro {
-        width: 100%;
-        margin: 0;
-        height: fit-content;
-    }
-    .fdiv {
-        padding: 0;
-        width: 100%;
-        margin: 5px;
-        height: 58%;
-    }
-    .fd1 {
-         margin-left: 0px;
-    }
-    .fd2 {
-        margin-left: 0px;
-    }
-    .fd1 p {
-        margin: 4px;
-        margin-left: 10px;
-    }
-    .fd1 .pp {
-        font-size: 9px;
-    }
-    .tdv {
-        margin: 0px; 
-    }
-    .ph {
-        font-size: 7px;
-        color: rgb(193, 192, 192);
-    }
-    .pe {
-        font-weight: 600;
-        font-size: 10px;
-    }
-    .spd {
-        display: flex;
-         width: 100%;
-    }
-    .sp1 {
-        display: block;
-        width: 35%;
-        margin: 5px;
-        text-align: center;
-    }
-    .sp2 {
-        display: block;
-        width: 35%;
-        margin: 5px;
-        text-align: center;
-    }
-    .sp3 {
-        display: block;
-        width: 35%;
-        margin: 5px;
-        text-align: center;
-    }
-    .spn {
-        font-weight: 600;
-        font-size: 16px;
-        color: rgb(6, 180, 237);
-    }
-    .spt {
-        font-size: 8px;
-        color: lightgray;
-    }
-    .sp1, .sp2, .sp3 {
-        justify-items: center;
-    }
-    .spp1 {
-        width: 40px;
-    }
-    .tdv {
-        display: block;
-        margin-left: 10px;
-    }
-    .tdv .ph1 {
-        font-size: 8px;
-    }
-    .fd2 .pp {
-        font-weight: 100;
-        font-size: 9px;
-        margin: 3px;
-        margin-left: 10px;
-    }
-    .ph1 {
-        font-size: 1px;
-    }
-    .spp1 .spn {
-        font-size: 13px;
-    }
-    .fdiv2 {
-        width: 100%;
-        height: 40%;
-        border-bottom-left-radius: 10px;
-        border-top-right-radius: 0px;
+        background-position: 0px 500px;
     }
 }
 @media (max-width: 550px) {
@@ -985,13 +810,13 @@ span {
         justify-self: center;
     }
     .sportbtn {
-        font-size: 8px;
-        height: 30px;
+        font-size: 9px;
+        height: 44px;
     }
     .sportbtn2 {
-        font-size: 8px;
-        width: 73px;
-        height: 30px;
+        font-size: 9px;
+        width: 120px;
+        height: 43px;
     }
     .dtcont h2 {
         width: 98%;
@@ -1117,11 +942,38 @@ span {
 
 @media (max-width: 770px) {
     .lstdiv {
+        display: block;
+    }
+    .dropdown {
+        left: 4%;
+        width: 50%;
         display: none;
     }
+    .dropdown-content {
+        left: 10%;
+        height: 700%;
+        width: 100%;
+    }
+    .alist a{
+        margin-left: 10px;
+        width: 90%;
+        padding: 20px;
+    }
+    .sportdiv {
+        top: 80%;
+    }
+    .sportbtn {
+        font-size: 9px;
+        height: 44px;
+    }
+    .sportbtn2 {
+        font-size: 9px;
+        width: 120px;
+        height: 44px;
+    }
     .imd {
-        width: 100px;
-        height: 100px;
+        width: 250px;
+        height: 250px;
     }
     .amedivp {
         width: 100%;
@@ -1148,13 +1000,25 @@ span {
     .cnt2 {
         margin-top: 50px
     }
+    .sexp {
+        left: 32%;
+    }
+    .fdiv2 {
+        width: 100%;
+        height: 40%;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+        background-position: 0px 200px;
+    }
 }
 @media (max-width: 850px) {
     .lstdiv {
-        left: 50%;
-    }
-    .lstdiv2 {
+        left: 45%;
         display: none;
+    }
+    .dropdown {
+        display: block;
+        left: 25%;
     }
     .imd {
         width: 100px;
@@ -1167,6 +1031,9 @@ span {
     .teh2 {
         font-size: medium;
         justify-self: center;
+    }
+    .sexp {
+        top: 70%;
     }
 }
 

@@ -6,10 +6,13 @@ const pText5 = document.getElementById("hello1");
 const frntE = document.getElementById("frntend");
 const frntE2 = document.getElementById("frntend2");
 const frntE3 = document.getElementById("frntend3");
-pText.innerHTML = "I'm A Full Stack Web Developer With Knowledge Of JavaScript,  React,";
-pText2.innerHTML = "Node.js, MongoDB And I Also Build Scalable Web Applications.";
+pText.innerHTML = "I'm A Full Stack Web Developer With Knowledge Of JavaScript, React, Node.js, MongoDB And I Also Build Scalable Web Applications.";
+pText2.innerHTML = "";
+const helloT = document.getElementById("dtc");
 
 
+helloT.style.height = "fit-content";
+helloT.style.padding = "10px"
 document.body.style.color = "white";
 document.getElementById("react").innerHTML = "React & Node.js "
 document.getElementById("react").style.fontSize = "small";

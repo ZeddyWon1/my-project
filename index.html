@@ -16,18 +16,20 @@
                 <a href="#aboutme" onclick="aboutMe()">About</a>
                 <a href="#contact" onclick="aboutMe()">Contact</a>
             </div>
-            <i class="fa fa-bars" onclick="bar()" id="barN">
-                <div class="lstdiv2" id="listd">
-                    <div class="alist">
-                        <a href="#">Home</a>
-                        <a href="#aboutme" onclick="aboutMe()">About</a>
-                        <a href="#contact" onclick="aboutMe()">Contact</a>
-                        <a href="">Resumes</a>
-                        <a href="#aboutme" onclick="aboutMe()">See portfolio</a>
-                        <i class="fa fa-times" onclick="timesF()"></i>
-                   </div>
+            <div class="dropdown" onclick="bar()" id="barN">
+            <i class="fa fa-bars"></i>
+            <div class="dropdown-content">
+                <div class="alist">
+                    <i class="fa fa-times" onclick="timesF()"></i>
+                    <a href="#">Home</a>
+                    <a href="#aboutme" onclick="aboutMe()">About</a>
+                    <a href="#contact" onclick="aboutMe()">Contact</a>
+                    <a href="">Resumes</a>
+                    <a href="#aboutme" onclick="aboutMe()">See portfolio</a>
                 </div>
-            </i>
+               
+            </div> 
+        </div>
         </nav>
     </header>
     <div class="cont">
@@ -39,7 +41,7 @@
         </div>
         <div class="sportdiv">
             <a href="#aboutme">
-                <button class="sportbtn" onclick="aboutMe()">SEE PORTFOLIO</button>
+                <button class="sportbtn" onclick="aboutMe()">VIEW PORTFOLIO</button>
             </a>
             <button class="sportbtn2">RESUMES</button>
         </div>
