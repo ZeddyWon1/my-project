@@ -22,7 +22,7 @@ nav {
 }
 .cont {
     position: relative;
-    background: url(/image/zeddy.jpg);
+    background: url(zeddy.jpg);
     height: 500px;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -49,7 +49,7 @@ nav {
     animation-iteration-count: infinite;
     background-position: 80% 80%;
     background-size: cover;
-    background-image: url(/image/UMSW6274.JPG);
+    background-image: url(UMSW6274.JPG);
 }
 
 @keyframes rot {
@@ -232,7 +232,7 @@ nav {
     width: 100%;
     height: 100%;
     box-shadow: 7px 4px 4px rgba(237, 236, 236, 0.703);
-    background-image: url(/image/UMSW6274.JPG);
+    background-image: url(UMSW6274.JPG);
     background-size: cover;
     margin-right: 20px;
     
@@ -249,7 +249,7 @@ nav {
     background-size: cover;
     background-position: 100% 50%;
     background-color: rgb(250, 251, 252);
-    background-image: url(/image/UMSW6274.JPG);
+    background-image: url(UMSW6274.JPG);
 }
 h3 {
     color: rgba(59, 131, 246, 0.978);;
