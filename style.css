@@ -25,7 +25,7 @@ h4 {
     display: none;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     justify-content: space-between;
     background-color: black;
 }
@@ -51,7 +51,6 @@ h4 {
     float: right;
     width: 170px;
     height: 170px;
-    clip-path: circle(40%);
     position: absolute;
     animation-name: rot;
     animation-duration: 5s;
@@ -62,6 +61,7 @@ h4 {
     height: 170px;
     background-size: cover;
     background-position: 80% 80%;
+    clip-path: circle(40%);
 }
 
 @keyframes rot {
@@ -645,6 +645,7 @@ span {
         top: 13%;
         width: 100px;
         height: 100px;
+        position: absolute;
     }
     .imgd {
         width: 100px;
