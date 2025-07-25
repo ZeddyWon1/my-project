@@ -298,7 +298,7 @@ h3 {
     flex-wrap: wrap;
 }
 .cnt2 {
-    margin-top: 50%;
+    margin-top: 80%;
 }
 .mcnt {
     top: 0;
@@ -511,13 +511,13 @@ span {
 }
 
 .fpro {
-    width: 78%;
+    width: 87%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-self: center;
-    margin: 25px;
-    margin-left: 30px;
+    margin: 20px;
+    margin-left: 25px;
     border-radius: 10px;
     background-color: rgb(33 38 45);
 }
@@ -545,6 +545,9 @@ span {
     border-bottom-right-radius: 10px;
     background-size: cover;
     box-shadow: 0px 0px 50px rgb(92, 11, 92);
+}
+.wapn {
+    color: white;
 }
 .fd1 {
     margin-left: 20px;
