@@ -17,7 +17,7 @@ h4 {
     width: 100%;
     padding-right: 30px;
     position: fixed;
-    justify-items: space-evenly;
+    justify-content: space-between;
     z-index: 1;
 }
 .nav2 {
@@ -116,8 +116,7 @@ h4 {
 }
 .lstdiv {
     padding: 15px;
-    left: 53%;
-    position: relative;
+    
 }
 .lstdiv a {
     color: white;
@@ -141,7 +140,7 @@ h4 {
     background-color: rgb(210, 209, 209);
     position: absolute;
     min-width: 230px;
-    height: 220px;
+    height: 230px;
     display: none;
     z-index: 1;
     box-shadow: 0px 4px 12px black;
