@@ -4,30 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Zeddy's portfolio</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav1">
             <h4>Zeddy's portfolio</h4>
             <div class="lstdiv">
                 <a href="#">Home</a>
                 <a href="#aboutme" onclick="aboutMe()">About</a>
                 <a href="#contact" onclick="aboutMe()">Contact</a>
             </div>
-            <i class="fa fa-bars" onclick="bar()" id="barN">
-                <div class="lstdiv2" id="listd">
+        </nav>
+        <nav class="nav2">
+            <h4>Zeddy's portfolio</h4>
+            <div class="dropdown">
+                <i class="fa fa-bars" onclick="dropicon()"></i>
+                <div class="dropdown-content" id="barN">
                     <div class="alist">
+                        <span id="remove">
+                            <i class="fa fa-times" onclick="remove()"></i>
+                        </span>
                         <a href="#">Home</a>
                         <a href="#aboutme" onclick="aboutMe()">About</a>
                         <a href="#contact" onclick="aboutMe()">Contact</a>
                         <a href="">Resumes</a>
                         <a href="#aboutme" onclick="aboutMe()">See portfolio</a>
-                        <i class="fa fa-times" onclick="timesF()"></i>
-                   </div>
-                </div>
-            </i>
+                    </div>
+                </div>    
+            </div>
         </nav>
     </header>
     <div class="cont">
@@ -38,13 +45,11 @@
             <p id="dtp2"></p>
         </div>
         <div class="sportdiv">
-            <a href="#aboutme">
-                <button class="sportbtn" onclick="aboutMe()">SEE PORTFOLIO</button>
-            </a>
+            <a href="#aboutme"><button class="sportbtn" onclick="aboutMe()">SEE PORTFOLIO</button></a>
             <button class="sportbtn2">RESUMES</button>
         </div>
         <div class="imd">
-            
+            <img src="UMSW6274.JPG" alt="" class="imgd">
         </div>
         <div class="sexp">
             <p>Scroll to explore</p>
@@ -117,7 +122,9 @@
             </div>
         </div>
     </div>
-    <h2 class="teh2">Technical Expertise</h2>
+    <div class="techexp">
+        <h2 class="teh2">Technical Expertise</h2>
+    </div>
     <div class="techexp">
         <div class="frntend" id="frntend">
             <p class="pf1">
@@ -219,7 +226,9 @@
             </div>
         </div>
     </div>
-    <h2 class="teh2">Featured Projects</h2>
+    <div class="techexp">
+        <h2 class="teh2">Featured Projects</h2>
+    </div>
     <div class="fpro">
         <div class="fdiv">
             <div class="fd1">
@@ -258,22 +267,25 @@
             </div>   
         </div>
         <div class="fdiv2">
-            
+            <img src="code_room.jpg" alt="" class="fdivii">
         </div>
     </div>
     <footer>
         <div class="ffdv">
-            <h2 class="teh2">Let's Build Something Amazing</h2>
+            <h2 class="teh3">Let's Build Something Amazing</h2>
             <p class="ph1">Looking for a developer who can create high-performance, interactive web experiences?</p>
-            <div class="dlot">
-                <i class="fa fa-map-marker"></i>
-                <p>Enugu, Nigeria</p>
+            <div class="techexp">
+                <div class="dlot">
+                    <i class="fa fa-map-marker"></i>
+                    <p>Enugu, Nigeria</p>
+                </div>
             </div>
+            
             <div class="btndv">
-                <a href="">
-                    <button class="fbtn">
+                <a href="#contact">
+                    <button class="fbtn" onclick="aboutMe()">
                         <i class="fa fa-envelope"></i>
-                        Get in Touch 
+                         Get in Touch  
                     </button>
                 </a>
                 <a href="">
