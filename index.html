@@ -19,11 +19,14 @@
             </div>
         </nav>
         <nav class="nav2">
-            <div class="dropdown" onclick="bar()" id="barN">
-                <i class="fa fa-bars"></i>
-                <div class="dropdown-content">
+            <h4>Zeddy's portfolio</h4>
+            <div class="dropdown">
+                <i class="fa fa-bars" onclick="dropicon()"></i>
+                <div class="dropdown-content" id="barN">
                     <div class="alist">
-                        <i class="fa fa-times" onclick="timesF()"></i>
+                        <span id="remove">
+                            <i class="fa fa-times" onclick="remove()"></i>
+                        </span>
                         <a href="#">Home</a>
                         <a href="#aboutme" onclick="aboutMe()">About</a>
                         <a href="#contact" onclick="aboutMe()">Contact</a>
@@ -42,9 +45,7 @@
             <p id="dtp2"></p>
         </div>
         <div class="sportdiv">
-            <a href="#aboutme">
-                <button class="sportbtn" onclick="aboutMe()">SEE PORTFOLIO</button>
-            </a>
+             <button class="sportbtn" onclick="aboutMe()"><a href="#aboutme">SEE PORTFOLIO</a></button>
             <button class="sportbtn2">RESUMES</button>
         </div>
         <div class="imd">
@@ -266,22 +267,25 @@
             </div>   
         </div>
         <div class="fdiv2">
-            
+            <img src="code_room.jpg" alt="" class="fdivii">
         </div>
     </div>
     <footer>
         <div class="ffdv">
             <h2 class="teh3">Let's Build Something Amazing</h2>
             <p class="ph1">Looking for a developer who can create high-performance, interactive web experiences?</p>
-            <div class="dlot">
-                <i class="fa fa-map-marker"></i>
-                <p>Enugu, Nigeria</p>
+            <div class="techexp">
+                <div class="dlot">
+                    <i class="fa fa-map-marker"></i>
+                    <p>Enugu, Nigeria</p>
+                </div>
             </div>
+            
             <div class="btndv">
-                <a href="">
-                    <button class="fbtn">
+                <a href="#contact">
+                    <button class="fbtn" onclick="aboutMe()">
                         <i class="fa fa-envelope"></i>
-                        Get in Touch 
+                         Get in Touch  
                     </button>
                 </a>
                 <a href="">
