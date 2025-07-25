@@ -25,7 +25,7 @@ h4 {
     display: none;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     justify-content: space-between;
     background-color: black;
 }
@@ -51,17 +51,14 @@ h4 {
     float: right;
     width: 170px;
     height: 170px;
-    clip-path: circle(40%);
     position: absolute;
-    animation-name: rot;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
 }
 .imgd {
     width: 170px;
     height: 170px;
     background-size: cover;
     background-position: 80% 80%;
+    clip-path: circle(40%);
 }
 
 @keyframes rot {
@@ -119,8 +116,7 @@ h4 {
 }
 .lstdiv {
     padding: 15px;
-    left: 53%;
-    position: relative;
+    
 }
 .lstdiv a {
     color: white;
@@ -144,7 +140,7 @@ h4 {
     background-color: rgb(210, 209, 209);
     position: absolute;
     min-width: 230px;
-    height: 220px;
+    height: 230px;
     display: none;
     z-index: 1;
     box-shadow: 0px 4px 12px black;
@@ -302,7 +298,7 @@ h3 {
     flex-wrap: wrap;
 }
 .cnt2 {
-    margin-top: 50%;
+    margin-top: 80%;
 }
 .mcnt {
     top: 0;
@@ -515,13 +511,13 @@ span {
 }
 
 .fpro {
-    width: 78%;
+    width: 87%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-self: center;
-    margin: 25px;
-    margin-left: 30px;
+    margin: 20px;
+    margin-left: 25px;
     border-radius: 10px;
     background-color: rgb(33 38 45);
 }
@@ -549,6 +545,9 @@ span {
     border-bottom-right-radius: 10px;
     background-size: cover;
     box-shadow: 0px 0px 50px rgb(92, 11, 92);
+}
+.wapn {
+    color: white;
 }
 .fd1 {
     margin-left: 20px;
@@ -645,6 +644,7 @@ span {
         top: 13%;
         width: 100px;
         height: 100px;
+        position: absolute;
     }
     .imgd {
         width: 100px;
@@ -1082,7 +1082,7 @@ span {
     .imd {
         width: 100px;
         height: 100px;
-        left: 69%;
+        left: 73%;
     }
     .imgd {
         width: 100px;
