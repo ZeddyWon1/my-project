@@ -849,19 +849,12 @@ span {
     .lstdiv {
         display: none;
     }
-<<<<<<< HEAD
-    .alist a{
-        margin-left: 10px;
-        width: 90%;
-        padding: 20px;
-=======
     .nav1 {
         justify-content: space-between;
     }
     .nav2 {
         display: flex;
         top: 0%;
->>>>>>> e6107dd0963377d2bc269f56944dd2e9860c9e49
     }
    .imd {
         width: 100px;
@@ -1018,20 +1011,8 @@ span {
     .nav1 {
         display: none;
     }
-<<<<<<< HEAD
-    .dropdown-content {
-        left: 00%;
-        height: 700%;
-        width: 100%;
-    }
-    .alist a{
-        margin-left: 10px;
-        width: 90%;
-        padding: 20px;
-=======
     .nav2 {
         display: flex;
->>>>>>> e6107dd0963377d2bc269f56944dd2e9860c9e49
     }
     .sportdiv {
         top: 80%;
@@ -1102,14 +1083,8 @@ span {
     .nav1{
         display: none;
     }
-<<<<<<< HEAD
-    .dropdown {
-        display: block;
-        left: 5%;
-=======
     .nav2{
         display: flex;
->>>>>>> e6107dd0963377d2bc269f56944dd2e9860c9e49
     }
     .imd {
         width: 100px;
